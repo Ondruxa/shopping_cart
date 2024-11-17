@@ -1,10 +1,12 @@
 package ru.skypro.shoping.cart.service.impl;
 
+import org.springframework.stereotype.Service;
 import ru.skypro.shoping.cart.service.StoreService;
 
 import java.util.List;
 import java.util.Set;
 
+@Service
 public class StoreServiceImpl implements StoreService {
 
     private final ShoppingCart shoppingCart;
